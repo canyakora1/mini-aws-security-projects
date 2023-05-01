@@ -11,15 +11,15 @@ A list of best practices AWS Inspectors inspects includes:
 
 **b. Security best practices for Amzon Inspector**
 
-## Prreguisites ##
+## Prereguisites ##
 
-+ An AWS Account with full admin privileges (much likely not root) because we will de deploying some AWS resources and set up a IAM Role.
++ An AWS Account with full admin privileges (much likely not root) because we will be deploying some AWS resources and setting up a IAM Role.
 
 # Getting Started #
-## A Brief outline of the project using AWS Inspector ##
+## A Brief step by step of the project using AWS Inspector ##
 
 **1. Set up an Two (2) Ec2 Instance, one a Amazon Linux Instance and a Windows 2019 Instance.**
-![EC2 Instances already deployed](/images/EC2Instances.png)
+![EC2 Instances already deployed](../aws-inspector-ec2vulns/images/EC2Instances.png)
 
 **2. Create an IAM Role that would be used by the EC2 Instance to communicate with System Manager** 
 ![IAM Role](/images/IAMPOLICY.png)
@@ -37,9 +37,9 @@ A list of best practices AWS Inspectors inspects includes:
 **6. Session Manager which is a part of Systems Manager can be used to connect to the Instance to perform any manual test as needed.** 
 
 ## Tear-down of Resources ##
-It is advisable to tear-down any resources spawn up during the course of this tutorial to aviod any additional cost and also to bring your account to the state it was before we started deploying resources.
+It is advisable to tear-down any resource spawn up during the course of this tutorial to aviod any additional cost and also to bring your account to the state it was before we started deploying resources.
 
-**steps:**
+**Steps:**
 1. Delete the IAM Role created 
 2. Terminate the EC2 Instances deployed
 3. Deactivate Amazon Inspector
