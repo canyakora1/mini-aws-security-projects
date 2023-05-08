@@ -28,17 +28,11 @@ g. Click Next
 h. For the Permission Options, select "Attach policies directly" and select the "AdministratorAcess"
 
 Lets take a look at the Administraor Access Policy
+![Permission policies](../iam-enable-mfa-policy/images/iam8.png)
 
-{
-    "Version": "2012-10-17",
-    "Statement": [                  # Every policy must have a single statement or multiple statements
-        {
-            "Effect": "Allow",      # Effect can either be an 'allow' or 'deny'
-            "Action": "*",          # *(wildcard) means all actions
-            "Resource": "*"         # all resources
-        }
-    ]
-}
+# Every policy must have a single statement or multiple statements
+# Ef # *(wildcard) means all actions
+# all resources
 
 i. click next and "Create User"
 
