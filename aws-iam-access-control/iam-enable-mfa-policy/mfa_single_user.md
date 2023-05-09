@@ -31,7 +31,7 @@ Lets take a look at the Administraor Access Policy
 ![Permission policies](../iam-enable-mfa-policy/images/iam8.png)
 
 # Every policy must have a single statement or multiple statements
-# Ef # *(wildcard) means all actions
+# * (wildcard) means all actions
 # all resources
 
 i. click next and "Create User"
