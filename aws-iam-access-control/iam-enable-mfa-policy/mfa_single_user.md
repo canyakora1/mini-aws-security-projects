@@ -28,11 +28,11 @@ g. Click Next
 h. For the Permission Options, select "Attach policies directly" and select the "AdministratorAcess"
 
 Lets take a look at the Administraor Access Policy
+
 ![Permission policies](../iam-enable-mfa-policy/images/iam8.png)
 
-# Every policy must have a single statement or multiple statements
-# Ef # *(wildcard) means all actions
-# all resources
+**Every policy must have a single statement or multiple statements. The "*" signifies a wildcard, it stands for all actions or all resources**
+
 
 i. click next and "Create User"
 
