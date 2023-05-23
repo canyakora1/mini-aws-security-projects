@@ -31,8 +31,14 @@ Lets take a look at the Administraor Access Policy
 
 ![Permission policies](../iam-enable-mfa-policy/images/iam8.png)
 
+<<<<<<< HEAD
 **Every policy must have a single statement or multiple statements. The "*" signifies a wildcard, it stands for all actions or all resources**
 
+=======
+# Every policy must have a single statement or multiple statements
+# * (wildcard) means all actions
+# all resources
+>>>>>>> f1d7448b667893c8cc6a333f5719baf2cc1e9f74
 
 i. click next and "Create User"
 
